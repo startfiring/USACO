@@ -16,8 +16,8 @@ struct Person
 
 int main()
 {
-        ofstream fout("gift1.out");
-        ifstream fin("gift1.in");
+        ofstream fout(".\\Greedy_gift_givers\\gift1.out");
+        ifstream fin(".\\Greedy_gift_givers\\gift1.in");
 	int a,m,n,money,num;
 	string name;
 	fin>>a;
