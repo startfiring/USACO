@@ -11,8 +11,8 @@ LANG: C++
 
 using namespace std;
 
-ifstream fin(".\\Friday_the_thirteenth\\friday.in");
-ofstream fout(".\\Friday_the_thirteenth\\friday.out"); 
+ifstream fin("friday.in");
+ofstream fout("friday.out"); 
 
 int days[2][12]={31,28,31,30,31,30,31,31,30,31,30,31,
                  31,29,31,30,31,30,31,31,30,31,30,31};

@@ -12,8 +12,8 @@ using namespace std;
 
 int main()
 {
-    ifstream fin(".\\Your_ride_is_here\\ride.in");
-    ofstream fout(".\\Your_ride_is_here\\ride.out");
+    ifstream fin("ride.in");
+    ofstream fout("ride.out");
     char ch1[7];
     char ch2[7];
     int term1=1;

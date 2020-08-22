@@ -16,8 +16,8 @@ int n;
 string s;
 int main() {
 #ifdef MARK
-    freopen(".\\Broken_necklace\\beads.in", "r" ,stdin);
-    freopen(".\\Broken_necklace\\beads.out", "w", stdout);
+    freopen("beads.in", "r" ,stdin);
+    freopen("beads.out", "w", stdout);
 #endif
     cin >> n >> s;
     s = s+s;
