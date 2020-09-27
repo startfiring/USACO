@@ -19,7 +19,7 @@ ifstream fin_dict("dict.txt");
 string num;
 map<char,char> numString;
 
-void init_map(){
+void init_map()
     char c = 'A';
     for(int i=2; i<=9; i++){
         numString[c]=i-2+'2'; c++; if(c=='Q'||c=='Z') c++;
