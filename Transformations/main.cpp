@@ -1,3 +1,9 @@
+/*
+ID: kangzi1
+LANG: C++
+TASK: transform
+*/
+
 #include<iostream>
 #include<fstream>
 using namespace std;
